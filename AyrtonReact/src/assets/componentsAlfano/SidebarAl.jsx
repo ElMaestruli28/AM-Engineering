@@ -5,43 +5,22 @@ import {
   List,
   ListItem,
   ListItemPrefix,
-  Accordion,
-  AccordionHeader,
-  AccordionBody,
+
 } from "@material-tailwind/react";
 import {
   PhoneIcon,
   NewspaperIcon,
-  UserCircleIcon,
-  QuestionMarkCircleIcon,
-  UserGroupIcon,
   WrenchScrewdriverIcon,
-  ChevronDownIcon,
   Bars3Icon,
-  UsersIcon,
 } from "@heroicons/react/24/solid";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWhatsapp, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { Link } from "react-router-dom";
 
 
 export default function Sidebar() {
   const [open, setOpen] = useState(false);
   const [backgroundOpen, setBackgroundOpen] = useState(false);
-  const [accordionOpen, setAccordionOpen] = useState(false);
 
-  const handleClick = (event, targetId) => {
-    event.preventDefault();
-
-    // Obtenemos el elemento objetivo mediante el ID
-    const targetElement = document.getElementById(targetId);
-
-    // Realizamos el desplazamiento suave hasta el elemento objetivo
-    targetElement.scrollIntoView({
-      behavior: 'smooth',
-    });
-  };
 
   const toggleSidebar = () => {
     setOpen(!open);
@@ -99,7 +78,7 @@ export default function Sidebar() {
               <WrenchScrewdriverIcon className="h-5 w-5" />
             </ListItemPrefix>
             <Link
-              to="/soporte"
+              to="/"
               color="blue-gray"
               className="text-white hover:text-am"
             >

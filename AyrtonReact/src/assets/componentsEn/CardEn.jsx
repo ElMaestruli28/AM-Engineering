@@ -7,21 +7,13 @@ const Tarjeta = ({ imagen, titulo, subtitulo }) => {
   return (
     <Card
       shadow={false}
-      className="relative grid h-screen max-md:h-[45vh] w-1/3 rounded-none items-end justify-center overflow-hidden text-center"
-    >
-      <CardHeader
-        floated={false}
-        shadow={false}
-        color="transparent"
-        className="absolute inset-0 h-full w-full rounded-none bg-cover bg-center"
-        style={{
-          backgroundImage: `url(${imagen})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
+      className="relative grid h-screen max-md:h-[45vh] w-1/3 rounded-none items-end justify-center overflow-hidden text-center "
+      style={{
+        backgroundImage: `url(${imagen})`,
+        backgroundSize:'cover',
+        backgroundPosition: 'center'
+      }}>
         <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50" />
-      </CardHeader>
       <CardBody className="relative py-7 md:px-12">
         <Typography className="mb-5 text-white font-medium text-3xl leading-[1.5] max-sm:text-xl">
           {titulo}

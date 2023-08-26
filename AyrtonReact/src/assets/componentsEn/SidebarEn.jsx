@@ -21,6 +21,7 @@ import {
   Bars3Icon,
 } from "@heroicons/react/24/solid";
 
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
@@ -199,6 +200,18 @@ export default function Sidebar() {
             >
               Partners
             </a>
+          </ListItem>
+          <ListItem>
+            <ListItemPrefix>
+              <WrenchScrewdriverIcon className="h-5 w-5" />
+            </ListItemPrefix>
+            <Link
+              to="/soporte"
+              color="blue-gray"
+              className="text-white hover:text-alfano"
+            >
+              Alfano Support
+            </Link>
           </ListItem>
         </List>
       </Card>

@@ -21,6 +21,7 @@ module.exports = {
         'gray-perfect': '#b6b6b6',
         'alfano':'#ffdb00',
         'am':'#a0ff00',
+        'git':'#1D1F20',
       },
       animation: {
         'spin-slow': 'spin-slow 1s linear',

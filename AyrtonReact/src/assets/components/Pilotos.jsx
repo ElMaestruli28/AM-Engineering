@@ -1,26 +1,27 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Autoplay, Pagination } from 'swiper';
+import SwiperCore from 'swiper';
 import 'swiper/swiper-bundle.css';
 import 'tailwindcss/tailwind.css';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { useMediaQuery } from 'react-responsive';
+import {Autoplay, Pagination} from "swiper/modules"
 
 SwiperCore.use([Autoplay, Pagination]);
 
-import Catania from "C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/racer/catania.webp";
-import Cataniamobile from "C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/racer/catania-mobile.webp";
-import Dore from "C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/racer/dore.webp";
-import Doremobile from "C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/racer/dore-mobile.webp";
-import Maschio from "C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/racer/maschio.webp";
-import Maschiomobile from "C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/racer/maschio-mobile.webp";
-import Moretta from "C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/racer/moretta.webp";
-import Morettamobile from "C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/racer/moretta-mobile.webp";
-import Ramos from "C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/racer/ramos.webp";
-import Ramosmobile from "C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/racer/ramos-mobile.webp";
-import Rossotti from "C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/racer/rossotti.webp";
-import Rossottimobile from "C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/racer/rossotti-mobile.webp";
-import Stratievsky from "C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/racer/stratievsky.webp";
-import Stratievskymobile from "C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/racer/stratievsky-mobile.webp";
+import Catania from "../images/racer/catania.webp";
+import Cataniamobile from "../images/racer/catania-mobile.webp";
+import Dore from "../images/racer/dore.webp";
+import Doremobile from "../images/racer/dore-mobile.webp";
+import Maschio from "../images/racer/maschio.webp";
+import Maschiomobile from "../images/racer/maschio-mobile.webp";
+import Moretta from "../images/racer/moretta.webp";
+import Morettamobile from "../images/racer/moretta-mobile.webp";
+import Ramos from "../images/racer/ramos.webp";
+import Ramosmobile from "../images/racer/ramos-mobile.webp";
+import Rossotti from "../images/racer/rossotti.webp";
+import Rossottimobile from "../images/racer/rossotti-mobile.webp";
+import Stratievsky from "../images/racer/stratievsky.webp";
+import Stratievskymobile from "../images/racer/stratievsky-mobile.webp";
 
 function Pilotos() {
   const isMobile = useMediaQuery({ maxWidth: 768 });

@@ -1,7 +1,7 @@
 import { Card, CardHeader, CardBody, Typography } from "@material-tailwind/react";
-import Img1 from 'C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/Cards/imagen1.webp';
-import Img2 from 'C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/Cards/imagen2.webp';
-import Img3 from 'C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/Cards/imagen3.webp';
+import Img1 from '../images/Cards/imagen1.webp';
+import Img2 from '../images/Cards/imagen2.webp';
+import Img3 from '../images/Cards/imagen3.webp';
 
 const Tarjeta = ({ imagen, titulo, subtitulo }) => {
   return (

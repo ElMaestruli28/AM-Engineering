@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-import UK from 'C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/media/bandera-reino-unido.webp'
+import UK from '../images/media/bandera-reino-unido.webp'
 
 function ButtonEn() {
     return (

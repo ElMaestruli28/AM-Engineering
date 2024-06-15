@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-import ES from 'C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/media/bandera-espana.avif'
+import ES from '../images/media/bandera-espana.avif'
 
 function ButtonEn() {
     return (

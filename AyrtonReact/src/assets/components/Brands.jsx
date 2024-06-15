@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Autoplay, Pagination } from 'swiper';
+import SwiperCore from 'swiper';
+import {Autoplay, Pagination} from "swiper/modules"
 
 import 'swiper/swiper-bundle.css';
 import 'tailwindcss/tailwind.css';
@@ -7,13 +8,13 @@ import 'tailwindcss/tailwind.css';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
-import Img1 from 'C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/Logos/7.webp';
-import Img2 from 'C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/Logos/8.webp';
-import Img3 from 'C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/Logos/9.webp';
-import Img4 from 'C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/Logos/10.webp';
-import Img5 from 'C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/Logos/11.webp';
-import Img6 from 'C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/Logos/12.webp';
-import Img7 from 'C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/Logos/13.webp';
+import Img1 from '../images/Logos/7.webp';
+import Img2 from '../images/Logos/8.webp';
+import Img3 from '../images/Logos/9.webp';
+import Img4 from '../images/Logos/10.webp';
+import Img5 from '../images/Logos/11.webp';
+import Img6 from '../images/Logos/12.webp';
+import Img7 from '../images/Logos/13.webp';
 
 SwiperCore.use([Autoplay, Pagination]);
 

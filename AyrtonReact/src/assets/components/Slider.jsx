@@ -1,24 +1,25 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Autoplay, EffectFade, Pagination } from 'swiper';
+import SwiperCore from 'swiper';
 import 'swiper/swiper-bundle.css';
 import 'tailwindcss/tailwind.css';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { useMediaQuery } from 'react-responsive';
+import {Autoplay, EffectFade, Pagination} from "swiper/modules"
 
 SwiperCore.use([Autoplay, EffectFade, Pagination]);
 
-import imagen1 from "C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/encabezados/primera.webp";
-import imagen2 from "C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/encabezados/2.webp";
-import imagen3 from "C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/encabezados/3.webp";
-import imagen4 from "C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/encabezados/4.webp";
-import imagen5 from "C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/encabezados/5.webp";
-import imagen6 from "C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/encabezados/6.webp";
-import imagen1mobile from "C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/encabezados/primera-mobile.webp";
-import imagen2mobile from "C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/encabezados/2-mobile.webp";
-import imagen3mobile from "C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/encabezados/3-mobile.webp";
-import imagen4mobile from "C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/encabezados/4-mobile.webp";
-import imagen5mobile from "C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/encabezados/5-mobile.webp";
-import imagen6mobile from "C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/encabezados/6-mobile.webp";
+import imagen1 from "../images/encabezados/primera.webp";
+import imagen2 from "../images/encabezados/2.webp";
+import imagen3 from "../images/encabezados/3.webp";
+import imagen4 from "../images/encabezados/4.webp";
+import imagen5 from "../images/encabezados/5.webp";
+import imagen6 from "../images/encabezados/6.webp";
+import imagen1mobile from "../images/encabezados/primera-mobile.webp";
+import imagen2mobile from "../images/encabezados/2-mobile.webp";
+import imagen3mobile from "../images/encabezados/3-mobile.webp";
+import imagen4mobile from "../images/encabezados/4-mobile.webp";
+import imagen5mobile from "../images/encabezados/5-mobile.webp";
+import imagen6mobile from "../images/encabezados/6-mobile.webp";
 
 function Slider() {
   const isMobile = useMediaQuery({ maxWidth: 768 });

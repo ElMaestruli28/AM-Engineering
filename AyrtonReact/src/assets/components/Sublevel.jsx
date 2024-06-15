@@ -1,10 +1,11 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Autoplay, Pagination } from 'swiper';
+import SwiperCore from 'swiper';
+import {Autoplay, Pagination} from "swiper/modules"
 
 import 'swiper/swiper-bundle.css';
 import 'tailwindcss/tailwind.css';
 
-import Img1 from 'C:/Users/tiago/OneDrive/Escritorio/Paginas/Pagina 9 (AyrtonReact)/AyrtonReact/src/assets/images/Logos/14.webp';
+import Img1 from '../images/Logos/14.webp';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 SwiperCore.use([Autoplay, Pagination]);
